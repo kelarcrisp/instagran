@@ -7,14 +7,13 @@ import jimPic from './assets/images/logo.png';
 
 function Logo() {
   var getStyle = {
-    width: "100px"
+    width: "32px",
+    marginRight: "20px"
   }
 
 
   return (
-    <div >
-      <img style={getStyle} src={jimPic} />
-    </div>
+    <img style={getStyle} src={jimPic} />
   );
 }
 

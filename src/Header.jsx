@@ -1,7 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
-import bestWife from './assets/images/bestWife.png';
 import Logo from "./Logo";
 
 
@@ -10,13 +8,19 @@ import Logo from "./Logo";
 
 
 
-function Header() {
-  return (
-    <div>
-      <h3>jschneidereit</h3>
+function Header(props) {
+  var headerStyles = {
+    padding: "20px"
+  }
 
+  var usernameStyles = {
+    fontFamily: "sans-serif"
+  }
+
+  return (
+    <div style={headerStyles}>
       <Logo />
-      <img id="photo" src={bestWife} />
+      <span style={usernameStyles}>{props.username}</span>
 
     </div>
   )
