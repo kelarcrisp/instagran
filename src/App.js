@@ -1,13 +1,10 @@
 import React from 'react';
-import Header from "./Header";
-import Photo from "./Photo";
+import Container from "./Container";
 
 function App() {
   return (
     <div>
-      <Header
-        username="jschneidereit" />
-      <Photo />
+      <Container />
     </div>
   );
 }

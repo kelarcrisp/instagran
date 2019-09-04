@@ -2,15 +2,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Logo from "./Logo";
 
-
-
-
-
-
-
 function Header(props) {
   var headerStyles = {
-    padding: "20px"
+    padding: "10px"
   }
 
   var usernameStyles = {
