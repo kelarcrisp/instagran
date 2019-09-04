@@ -8,13 +8,15 @@ function Header(props) {
   }
 
   var usernameStyles = {
-    fontFamily: "sans-serif"
+    fontFamily: "sans-serif",
+    fontColor: "black",
+
   }
 
   return (
     <div style={headerStyles}>
       <Logo />
-      <span style={usernameStyles}>{props.username}</span>
+      <Link to="/profile"><span style={usernameStyles}>{props.username}</span></Link>
 
     </div>
   )

@@ -13,7 +13,7 @@ function TextContent() {
 
   return (
     <div style={TextContentStyles}>
-      yo hi!
+      <b>jschneidereit</b> You've never heard of the Millennium Falcon?
     </div>
   );
 }

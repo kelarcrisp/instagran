@@ -13,7 +13,7 @@ function Logo() {
 
 
   return (
-    <img style={getStyle} src={jimPic} />
+    <Link to="/profile"><img style={getStyle} src={jimPic} /></Link>
   );
 }
 
