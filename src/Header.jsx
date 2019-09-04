@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Logo from "./Logo";
+import PropTypes from "prop-types";
 
 function Header(props) {
   var headerStyles = {
@@ -21,5 +22,10 @@ function Header(props) {
     </div>
   )
 }
+
+
+Header.propTypes = {
+  username: PropTypes.string
+};
 
 export default Header;
