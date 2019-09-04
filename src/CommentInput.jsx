@@ -1,9 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-
-
-
 function CommentInput() {
   var CommentInputStyles = {
     padding: "15px"

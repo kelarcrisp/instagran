@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import Header from './Header';
 import Photo from './Photo';
 import CommentInput from './CommentInput';
-
+import TextContent from './TextContent';
 
 
 
@@ -21,6 +21,7 @@ function Post() {
       <Header
         username="jschneidereit" />
       <Photo />
+      <TextContent />
       <CommentInput />
     </div>
   );
