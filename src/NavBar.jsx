@@ -24,7 +24,7 @@ function NavBar() {
   var bottomBorder = {
     borderBottomStyle: "solid",
     borderBottomWidth: "1px",
-    borderBottomColor: "black"
+    borderBottomColor: "#ebe6e0"
   }
 
   return (

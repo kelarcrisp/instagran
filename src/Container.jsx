@@ -5,7 +5,9 @@ import Post from './Post';
 function Container() {
   var containerStyles = {
     width: "935px",
-    margin: "auto"
+    marginRight: "auto",
+    marginLeft: "auto",
+    marginTop: "30px"
   }
 
   return (
